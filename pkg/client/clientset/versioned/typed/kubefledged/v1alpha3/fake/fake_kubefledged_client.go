@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1alpha3 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
+	v1alpha3 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

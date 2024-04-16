@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	kubefledged "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged"
+	kubefledged "github.com/lcouds/kube-fledged/pkg/apis/kubefledged"
 )
 
 // SchemeGroupVersion is group version used to register these objects

@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha3"
-	clientset "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned"
+	"github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha3"
+	clientset "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned"
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"

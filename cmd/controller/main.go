@@ -29,10 +29,10 @@ import (
 
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
 	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	"github.com/senthilrch/kube-fledged/cmd/controller/app"
-	clientset "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned"
-	informers "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions"
-	"github.com/senthilrch/kube-fledged/pkg/signals"
+	"github.com/lcouds/kube-fledged/cmd/controller/app"
+	clientset "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned"
+	informers "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions"
+	"github.com/lcouds/kube-fledged/pkg/signals"
 )
 
 var (

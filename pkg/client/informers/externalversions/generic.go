@@ -21,8 +21,8 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha2 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha2"
-	v1alpha3 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha3"
+	v1alpha2 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha2"
+	v1alpha3 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha3"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"net/http"
 
-	kubefledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2"
-	kubefledgedv1alpha3 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
+	kubefledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2"
+	kubefledgedv1alpha3 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

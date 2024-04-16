@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1alpha2 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha2"
-	scheme "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/scheme"
+	v1alpha2 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha2"
+	scheme "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -19,9 +19,9 @@ limitations under the License.
 package kubefledged
 
 import (
-	internalinterfaces "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha2 "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions/kubefledged/v1alpha2"
-	v1alpha3 "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions/kubefledged/v1alpha3"
+	internalinterfaces "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha2 "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions/kubefledged/v1alpha2"
+	v1alpha3 "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions/kubefledged/v1alpha3"
 )
 
 // Interface provides access to each of this group's versions.

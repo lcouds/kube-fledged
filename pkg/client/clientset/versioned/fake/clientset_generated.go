@@ -19,11 +19,11 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned"
-	kubefledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2"
-	fakekubefledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2/fake"
-	kubefledgedv1alpha3 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
-	fakekubefledgedv1alpha3 "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3/fake"
+	clientset "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned"
+	kubefledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2"
+	fakekubefledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha2/fake"
+	kubefledgedv1alpha3 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3"
+	fakekubefledgedv1alpha3 "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/typed/kubefledged/v1alpha3/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

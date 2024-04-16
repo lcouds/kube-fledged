@@ -21,8 +21,8 @@ package v1alpha3
 import (
 	"net/http"
 
-	v1alpha3 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha3"
-	"github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned/scheme"
+	v1alpha3 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha3"
+	"github.com/lcouds/kube-fledged/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

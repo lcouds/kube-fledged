@@ -19,8 +19,8 @@ limitations under the License.
 package scheme
 
 import (
-	kubefledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha2"
-	kubefledgedv1alpha3 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha3"
+	kubefledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha2"
+	kubefledgedv1alpha3 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha3"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

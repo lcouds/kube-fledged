@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	kubefledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha2"
+	kubefledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha2"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/kubernetes/scheme"
 	"sigs.k8s.io/e2e-framework/pkg/env"

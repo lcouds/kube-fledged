@@ -19,7 +19,7 @@ package main
 import (
 	"flag"
 
-	"github.com/senthilrch/kube-fledged/cmd/webhook-server/app"
+	"github.com/lcouds/kube-fledged/cmd/webhook-server/app"
 )
 
 var (

@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/senthilrch/kube-fledged/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions/internalinterfaces"
-	kubefledged "github.com/senthilrch/kube-fledged/pkg/client/informers/externalversions/kubefledged"
+	versioned "github.com/lcouds/kube-fledged/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions/internalinterfaces"
+	kubefledged "github.com/lcouds/kube-fledged/pkg/client/informers/externalversions/kubefledged"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

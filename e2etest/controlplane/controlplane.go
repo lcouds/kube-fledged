@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lcouds/kube-fledged/e2etest/utils"
 	"github.com/pkg/errors"
-	"github.com/senthilrch/kube-fledged/e2etest/utils"
 	"helm.sh/helm/v3/pkg/action"
 	"helm.sh/helm/v3/pkg/chart/loader"
 	"helm.sh/helm/v3/pkg/cli"

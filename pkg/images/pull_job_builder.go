@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	fledgedv1alpha3 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha3"
+	fledgedv1alpha3 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha3"
 	batchv1 "k8s.io/api/batch/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

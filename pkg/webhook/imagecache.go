@@ -22,7 +22,7 @@ import (
 	"reflect"
 
 	"github.com/golang/glog"
-	fledgedv1alpha2 "github.com/senthilrch/kube-fledged/pkg/apis/kubefledged/v1alpha2"
+	fledgedv1alpha2 "github.com/lcouds/kube-fledged/pkg/apis/kubefledged/v1alpha2"
 	v1 "k8s.io/api/admission/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

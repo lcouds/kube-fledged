@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	controlplane "github.com/senthilrch/kube-fledged/e2etest/controlplane"
+	controlplane "github.com/lcouds/kube-fledged/e2etest/controlplane"
 	"sigs.k8s.io/e2e-framework/pkg/envconf"
 	"sigs.k8s.io/e2e-framework/pkg/features"
 )
